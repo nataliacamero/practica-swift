@@ -21,7 +21,7 @@ Esta clase se encarga de gestionar las reservaciones de hotel. Algunas de sus fu
 - dataValidation(bookingsList: [Reservation], idToValidate: Int, guestList: [Client]) throws -> Bool: Valida el ID de la reservación y la lista de clientes para evitar duplicados.
 - getAllReservations() -> [Reservation]: Obtiene todas las reservaciones existentes en forma de una lista.
 
-##Ejecución de pruebas
+## Ejecución de pruebas
 
 - El código también incluye algunas funciones de prueba (testAddReservation, testCancelReservation, testReservationPrice) que demuestran el uso de las funcionalidades de HotelReservationManager y realizan pruebas de aserción para verificar su correcto funcionamiento.
 
