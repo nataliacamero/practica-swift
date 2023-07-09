@@ -1,6 +1,6 @@
 import Foundation
 
-//Modelado de estructuras
+//Modeling of structures
 
 struct Client {
     let id: Int
@@ -29,7 +29,7 @@ enum ReservationError: Error {
 }
 
 
-//Modelado de clases HotelReservationManager
+//Modeling of classes HotelReservationManager
 
 class HotelReservationManager {
     var bookingsList: [Reservation] = []
